@@ -4,7 +4,7 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/animation.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/w3.css">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="icon" href="./assets/maintmaster.png">
 </head>
 
@@ -12,7 +12,7 @@
     <head>
 	<title>
 		Supportserien |
-			team overall
+			driver A
 	</title>
 </head>
 
@@ -37,7 +37,7 @@
 		<div class="w3-dropdown-hover w3-hide-small w3-hide-medium">
 			<button class="w3-button">Poängställning</button>
 			<div class="w3-dropdown-content w3-bar-block w3-card-4 w3-hide-small w3-hide-medium">
-				<a href="./A-driver-standings.html" class="w3-bar-item w3-button ">A</a>
+				<a href="./A-driver-standings.html" class="w3-bar-item w3-button active">A</a>
 				<a href="./B-driver-standings.html" class="w3-bar-item w3-button ">B</a>
 				<a href="./C-driver-standings.html" class="w3-bar-item w3-button ">C</a>
 				<a href="./overall-driver-standings.html" class="w3-bar-item w3-button ">overall</a>
@@ -50,7 +50,7 @@
 				<a href="./A-team-standings.html" class="w3-bar-item w3-button ">A</a>
 				<a href="./B-team-standings.html" class="w3-bar-item w3-button ">B</a>
 				<a href="./C-team-standings.html" class="w3-bar-item w3-button ">C</a>
-				<a href="./overall-team-standings.html" class="w3-bar-item w3-button active">overall</a>
+				<a href="./overall-team-standings.html" class="w3-bar-item w3-button ">overall</a>
 			</div>
 		</div>
 
@@ -71,21 +71,21 @@
         </a>
 
         <h3 class="w3-hide-large navTitle bold" style="display:block;">
-            team - overall
+            driver - A
             <br><span id="countdown"></span>
         </h3>
 
 	</div>
 
 	<div id="mobileNav" class="w3-bar-block w3-black w3-hide w3-hide-large" style="overflow-y:scroll;max-height:95vh;">
-            <a href="./A-driver-standings.html" class="w3-bar-item w3-button ">Poängställning - A</a>
+            <a href="./A-driver-standings.html" class="w3-bar-item w3-button active">Poängställning - A</a>
             <a href="./B-driver-standings.html" class="w3-bar-item w3-button ">Poängställning - B</a>
             <a href="./C-driver-standings.html" class="w3-bar-item w3-button ">Poängställning - C</a>
             <a href="./overall-driver-standings.html" class="w3-bar-item w3-button ">Poängställning - overall</a>
             <a href="./A-team-standings.html" class="w3-bar-item w3-button ">Teammästerskap - A</a>
             <a href="./B-team-standings.html" class="w3-bar-item w3-button ">Teammästerskap - B</a>
             <a href="./C-team-standings.html" class="w3-bar-item w3-button ">Teammästerskap - C</a>
-            <a href="./overall-team-standings.html" class="w3-bar-item w3-button active">Teammästerskap - overall</a>
+            <a href="./overall-team-standings.html" class="w3-bar-item w3-button ">Teammästerskap - overall</a>
 	</div>
 
 	<div id="seriesMobileNav" class="w3-bar-block w3-black w3-hide w3-hide-large" style="overflow-y:scroll;max-height:95vh;">
@@ -100,7 +100,7 @@
 	</div>
 
 	<div class="w3-bar w3-light-grey secondaryNav">
-			<a href="./overall-0-driver-results.html">
+			<a href="./A-0-driver-results.html">
 				<img src="./assets/country-flags/welsh.png" />
 			</a>
 	</div>
@@ -145,7 +145,7 @@
                 <div style="margin-bottom: 1em;" class="w3-hide-medium w3-hide-small">
                     <div class="logo" style="display:flex;">
                         <img src="./assets/maintmaster.png" />
-                        <h2 style="margin-left:1em;">Total Teammästerskap</h2>
+                        <h2 style="margin-left:1em;">A Poängställning</h2>
                     </div>
                 </div>
 
@@ -154,116 +154,87 @@
                         <tr>
                             <th>Pos</th>
                             <th></th>
-                                <th></th>
-                            <th>Team</th>
-                            <th><img src="./assets/country-flags/welsh.png"  alt="welsh"/></th>
+                            <th>Nat</th>
+                            <th>Förare</th>
+                                    <th>Team</th>
+                            <th>Bil</th>
+
+                            <th>
+                                <a href="./A-0-driver-results.html">
+                                    <img src="./assets/country-flags/welsh.png" alt="welsh" title="welsh"/>
+                                </a>
+                            </th>
+
                             <th>Poäng</th>
                         </tr>
                     </thead>
                     <tbody>
-                        
-                        <tr>
+                        <tr style="background-color: ">
                             <td>1</td>
                             <td>
                                 <span class="neutral">=</span>
                             </td>
+                            <td>
+                                <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
+                            </td>
+                            <td class="text-left bold">Thomas Dahn</td>
                                     <td>
-                                        <img src="./assets/teams/Castrol Rally Team.png" style="max-width:2em; max-height:2em;"  alt="Castrol Rally Team" title="Castrol Rally Team"/>
+                                        <img src="./assets/teams/Kapow Racing Sverige.png" style="max-width:2em; max-height:2em;" alt="Kapow Racing Sverige" title="Kapow Racing Sverige"/>
                                     </td>
-                                <td class="text-left bold">Castrol Rally Team</td>
+                                    <td>
+                                        <img src="./assets/cars/volkswagen.png" style="max-width:2em; max-height:2em;" alt="volkswagen" title="volkswagen"/>
+                                    </td>
                             
                             <td>
-                                65
+                                35
                             </td>
                             
-                            <td class="bold">65</td>
+                            <td class="bold">35</td>
                         </tr>
-                        
-                        <tr>
+                        <tr style="background-color: ">
                             <td>2</td>
                             <td>
                                 <span class="neutral">=</span>
                             </td>
+                            <td>
+                                <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
+                            </td>
+                            <td class="text-left bold">Lars Wiik</td>
                                     <td>
-                                        <img src="./assets/teams/Kapow Racing Sverige.png" style="max-width:2em; max-height:2em;"  alt="Kapow Racing Sverige" title="Kapow Racing Sverige"/>
+                                        <img src="./assets/teams/Castrol Rally Team.png" style="max-width:2em; max-height:2em;" alt="Castrol Rally Team" title="Castrol Rally Team"/>
                                     </td>
-                                <td class="text-left bold">Kapow Racing Sverige</td>
+                                    <td>
+                                        <img src="./assets/cars/volkswagen.png" style="max-width:2em; max-height:2em;" alt="volkswagen" title="volkswagen"/>
+                                    </td>
                             
                             <td>
-                                64
+                                30
                             </td>
                             
-                            <td class="bold">64</td>
+                            <td class="bold">30</td>
                         </tr>
-                        
-                        <tr>
+                        <tr style="background-color: ">
                             <td>3</td>
                             <td>
                                 <span class="neutral">=</span>
                             </td>
+                            <td>
+                                <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
+                            </td>
+                            <td class="text-left bold">Alexander Magnusson</td>
                                     <td>
-                                        <img src="./assets/teams/Castrol Team Sweden.png" style="max-width:2em; max-height:2em;"  alt="Castrol Team Sweden" title="Castrol Team Sweden"/>
+                                        <img src="./assets/teams/Kapow Racing Sverige.png" style="max-width:2em; max-height:2em;" alt="Kapow Racing Sverige" title="Kapow Racing Sverige"/>
                                     </td>
-                                <td class="text-left bold">Castrol Team Sweden</td>
-                            
-                            <td>
-                                34
-                            </td>
-                            
-                            <td class="bold">34</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>4</td>
-                            <td>
-                                <span class="neutral">=</span>
-                            </td>
                                     <td>
-                                        <img src="./assets/teams/Wermland Rally Team.png" style="max-width:2em; max-height:2em;"  alt="Wermland Rally Team" title="Wermland Rally Team"/>
+                                        <img src="./assets/cars/ford.png" style="max-width:2em; max-height:2em;" alt="ford" title="ford"/>
                                     </td>
-                                <td class="text-left bold">Wermland Rally Team</td>
                             
                             <td>
-                                31
+                                29
                             </td>
                             
-                            <td class="bold">31</td>
+                            <td class="bold">29</td>
                         </tr>
-                        
-                        <tr>
-                            <td>5</td>
-                            <td>
-                                <span class="neutral">=</span>
-                            </td>
-                                    <td>
-                                        <img src="./assets/teams/unknown.png" style="max-width:2em; max-height:2em;"  alt="Team Alfa" title="Team Alfa"/>
-                                    </td>
-                                <td class="text-left bold">Team Alfa</td>
-                            
-                            <td>
-                                28
-                            </td>
-                            
-                            <td class="bold">28</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>6</td>
-                            <td>
-                                <span class="neutral">=</span>
-                            </td>
-                                    <td>
-                                        <img src="./assets/teams/Kapow Racing Finland.png" style="max-width:2em; max-height:2em;"  alt="Kapow Racing Finland" title="Kapow Racing Finland"/>
-                                    </td>
-                                <td class="text-left bold">Kapow Racing Finland</td>
-                            
-                            <td>
-                                0
-                            </td>
-                            
-                            <td class="bold">0</td>
-                        </tr>
-                        
                     </tbody>
 
                 </table>
@@ -273,7 +244,6 @@
             </div>
         </div>
     </div>
-
     <script>
     function openMobileNav() {
         closeNav("seriesMobileNav");
@@ -298,5 +268,4 @@
 </script>
 
 </body>
-
 </html>
